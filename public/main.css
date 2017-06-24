@@ -1,0 +1,40 @@
+h1 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.agegroup {
+  margin-bottom: 1rem;
+}
+
+.container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.homeless {
+  /*display: inline-block;*/
+}
+
+.age {
+  display: none;
+}
+
+.allPages {
+  color: #1A1B41;
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+}
+
+@media (min-width: 1024px) {
+
+  .landing {
+    height: auto;
+
+  }
+
+}
