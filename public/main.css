@@ -23,6 +23,28 @@ h3 {
   display: none;
 }
 
+.youngPerson {
+  display: none;
+}
+
+.officeHours {
+  display: none;
+}
+
+.outsideHours {
+  display: none;
+}
+
+.newHorizon {
+  display: none;
+}
+
+/*.youngPerson {
+  display: none;
+}*/
+
+
+
 .allPages {
   color: #1A1B41;
   height: 100vh;
