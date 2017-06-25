@@ -1,3 +1,4 @@
+// The following code is just to get the app started - landing page
 $('.start').click(function() {
   $('.homeless').hide();
   $('.age').show();
@@ -23,4 +24,20 @@ $('.nonWeekday').click(function() {
 $('.eighteen21').click(function() {
   $('.age').hide();
   $('.newHorizon').show();
+});
+
+// The following code relates to the information about those over 65
+$('.over65').click(function() {
+  $('.age').hide();
+  $('.olderPerson').show();
+});
+
+$('.weekdayOlder').click(function() {
+  $('.olderPerson').hide();
+  $('.officeHoursOlder').show();
+});
+
+$('.nonWeekdayOlder').click(function() {
+  $('.olderPerson').hide();
+  $('.outsideHoursOlder').show();
 });
