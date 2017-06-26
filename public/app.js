@@ -26,6 +26,11 @@ $('.eighteen21').click(function() {
   $('.newHorizon').show();
 });
 
+$('.newHorizonHours').click(function() {
+  $('.newHorizon').hide();
+  $('.newHorizonOpen').show();
+});
+
 // The following code relates to the information about those over 65
 $('.over65').click(function() {
   $('.age').hide();
