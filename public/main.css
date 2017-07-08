@@ -19,7 +19,7 @@ h3 {
   /*display: inline-block;*/
 }
 
-.age {
+.withStatutory {
   display: none;
 }
 
@@ -35,10 +35,6 @@ h3 {
   display: none;
 }
 
-.newHorizon {
-  display: none;
-}
-
 .olderPerson {
   display: none;
 }
@@ -51,10 +47,53 @@ h3 {
   display: none;
 }
 
-.newHorizonOpen {
+.careLeaverAll {
   display: none;
 }
 
+.careLeaverHours {
+  display: none;
+}
+
+.careLeaverOutsideHours {
+  display: none;
+}
+
+.dependantAll {
+  display: none;
+}
+
+.dependantHours {
+  display: none;
+}
+
+.dependantOutsideHours {
+  display: none;
+}
+
+.outsideSocialServices {
+  display: none;
+}
+
+.withConnection {
+  display: none;
+}
+
+.withoutConnection {
+  display: none;
+}
+
+.priorityNeed {
+  display: none;
+}
+
+.priorityNeedHours {
+  display: none;
+}
+
+.priorityNeedOutsideHours {
+  display: none;
+}
 
 .allPages {
   color: #1A1B41;

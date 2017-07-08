@@ -20,21 +20,29 @@
         <div class="col s12 l4 offset-l4">
 
           <!-- This is the landing page -->
-          <div class="homeless allPages">
+          <div class="landing allPages">
             <h1>Homeless Support Advice</h1>
             <p>This app will help you find support for anyone who doesn't have a safe place to stay.</p>
-            <div class="waves-effect waves-light btn center-align start">Get started</div>
+            <ul><b>Is the person</b>
+              <li>Under 18?</li>
+              <li>Over 65?</li>
+              <li>Under 25 and was in care as a child?</li>
+              <li>Responsible for a dependant child?</li>
+            </ul>
+            <div class="waves-effect waves-light btn agegroup statutory">YES to at least one</div><br>
+            <div class="waves-effect waves-light btn agegroup notStatutory">Meets none of the above</div>
           </div>
 
-          <div class="age allPages">
-            <p>How old are they?</p>
+          <div class="withStatutory allPages">
+            <p>Anyone under 18, over 65, under 25 who was in care as a child or who is responsible for a dependant child should have a statutory right to support, regardless of where they're from or if they have a connection to the local area.</p>
             <div class="waves-effect waves-light btn agegroup under18">Under 18</div><br>
-            <div class="waves-effect waves-light btn agegroup eighteen21">18-21</div><br>
-            <div class="waves-effect waves-light btn agegroup twenty165">21-65</div><br>
-            <div class="waves-effect waves-light btn agegroup over65">Over 65</div>
+            <div class="waves-effect waves-light btn agegroup over65">Over 65</div><br>
+            <div class="waves-effect waves-light btn agegroup careLeaver">Care leaver</div><br>
+            <div class="waves-effect waves-light btn agegroup hasDependant">Has Dependant</div>
+
           </div>
 
-          <!-- This section applies to people under 18 -->
+          <!-- This is the information for those aged under 18 -->
           <div class="youngPerson allPages">
             <p>Anyone under 18 should have a statutory right to support, regardless of where they're from or if they have a connection to the local area.</p>
             <p>Contact Westminster Council Children's Services.</p>
@@ -54,24 +62,6 @@
             <h3>Westminster Council Children's Services</h3>
             <p>Outside business hours, call the Emergency Duty Team. Tell them you're talking to someone under 18 who may have a statutory right to support.</p>
             <p>020 7641 2388</p>
-          </div>
-
-          <!-- This section applies to people aged 18 - 21 -->
-          <!-- Need to update this one to reflect that this only works 10-4pm, no use in the evening -->
-          <div class="newHorizon allPages">
-            <p>If the person is aged 21 or under, they may be able to get help from New Horizon.</p>
-            <p>Is it 10.30am to 4pm (any day of the week)?</p>
-            <div class="waves-effect waves-light btn agegroup newHorizonHours">YES</div><br>
-            <!-- This needs to lead back into 18-65 year group -->
-            <div class="waves-effect waves-light btn agegroup notNHHours">NO</div>
-          </div>
-
-          <div class="newHorizonOpen allPages">
-            <h3>New Horizon Youth Centre</h3>
-            <p>Let staff at New Horizon know you're talking to someone aged 18 to 21 who needs urgent help with housing.</p>
-            <p>68 Chalton St, London, NW1 1JR<br>
-              10.30am to 4pm, 7 days a week</p>
-            <p>020 7388 5560</p>
           </div>
 
           <!-- This section applies to people over 65 -->
@@ -96,7 +86,120 @@
             <p>020 7641 6000</p>
           </div>
 
-          <!-- This section applies to people aged 18 or 21 to 65 -->
+          <!-- This section applies to people who are under 25 and care leavers -->
+          <div class="careLeaverAll allPages">
+            <p>Anyone who is under 25 and who was in care as a child should have a statutory right to support, regardless of where they're from or if they have a connection to the local area.</p>
+            <p>Contact Westminster Council Children's Services.</p>
+            <p>Is it during normal business hours?</p>
+            <div class="waves-effect waves-light btn agegroup weekdayCareLeaver">YES</div><br>
+            <div class="waves-effect waves-light btn agegroup nonWeekdayCareLeaver">NO</div>
+          </div>
+
+          <div class="careLeaverHours allPages">
+            <h3>Westminster Council Children's Services</h3>
+            <p>Monday to Friday, 9am to 5pm</p>
+            <p>Let them know you're talking to someone under 25 who was in care as a child and who may have a statutory right to support.</p>
+            <p>020 7641 4000</p>
+          </div>
+
+          <div class="careLeaverOutsideHours allPages">
+            <h3>Westminster Council Children's Services</h3>
+            <p>Outside business hours, call the Emergency Duty Team. Tell them you're talking to someone under 25 who was in care as a child and who may have a statutory right to support.</p>
+            <p>020 7641 2388</p>
+          </div>
+
+          <!-- This section applies to people who have a dependant child -->
+          <div class="dependantAll allPages">
+            <p>Anyone who is responsible for a dependant child should have a statutory right to support, regardless of where they're from or if they have a connection to the local area.</p>
+            <p>Contact Westminster Council Family Support.</p>
+            <p>Is it during normal business hours?</p>
+            <div class="waves-effect waves-light btn agegroup weekdayDependant">YES</div><br>
+            <div class="waves-effect waves-light btn agegroup nonWeekdayDependant">NO</div>
+          </div>
+
+          <div class="dependantHours allPages">
+            <h3>Westminster Council Family Support</h3>
+            <p>Monday to Friday, 9am to 5pm</p>
+            <p>Let them know you're talking to someone with a dependant child who may have a statutory right to support.</p>
+            <p>020 7641 4000</p>
+          </div>
+
+          <div class="dependantOutsideHours allPages">
+            <h3>Westminster Council Family Support</h3>
+            <p>Outside business hours, call the Emergency Duty Team. Tell them you're talking to someone with a dependant child who may have a statutory right to support.</p>
+            <p>020 7641 2388</p>
+          </div>
+
+          <!-- This section is for those who can't get help from social services -->
+          <div class="outsideSocialServices allPages">
+            <p>Is the person a resident of Westminster?</p>
+            <p>AND</p>
+            <p>Is the person British or an EU worker or a foreign national with indefinite leave to remain?</p>
+            <div class="waves-effect waves-light btn agegroup hasConnection">YES</div><br>
+            <div class="waves-effect waves-light btn agegroup hasNoConnection">NO</div>
+          </div>
+
+          <div class="withConnection allPages">
+            <h3>Does the person have a priority need?</h3>
+            <ul>
+              <b>Are they</b>
+              <li>Pregnant or breastfeeding?</li>
+              <li>Fleeing domestic violence?</li>
+              <li>Suffering from a serious mental health condition?</li>
+            </ul>
+            <div class="waves-effect waves-light btn agegroup hasPriorityNeed">YES</div><br>
+            <div class="waves-effect waves-light btn agegroup hasNoPriorityNeed">NO</div>
+          </div>
+
+          <div class="withoutConnection allPages">
+            <h3>Westminster Council Children's Services</h3>
+            <p>Outside business hours, call the Emergency Duty Team. Tell them you're talking to someone under 18 who may have a statutory right to support.</p>
+            <p>020 7641 2388</p>
+          </div>
+
+          <!-- This section applies to people with a connection and right to reside and with a priority need -->
+          <div class="priorityNeed allPages">
+            <p>Anyone who has a right to reside and a connection to Westminster and is is pregnant or breastfeeding, or is fleeing domestic violence, or has a serious mental health condition is considered to have a priority need for housing.</p>
+            <p>Contact Westminster Housing Options Service.</p>
+            <p>Is it during normal business hours?</p>
+            <div class="waves-effect waves-light btn agegroup weekdayPriorityNeed">YES</div><br>
+            <div class="waves-effect waves-light btn agegroup nonWeekdayPriorityNeed">NO</div>
+          </div>
+
+          <div class="priorityNeedHours allPages">
+            <h3>Westminster Housing Options Service</h3>
+            <p>Monday to Friday, 9am to 4pm</p>
+            <p>Let them know you're talking to someone with a connection to the local area and who has a priority need for housing.</p>
+            <p>020 7641 1000</p>
+          </div>
+
+          <div class="priorityNeedOutsideHours allPages">
+            <h3>Westminster Council Family Support</h3>
+            <p>Outside business hours, call the Emergency Duty Team. Let them know you're talking to someone with a connection to the local area and who has a priority need for housing.</p>
+            <p>020 7286 7412</p>
+          </div>
+
+
+
+          <!-- This section applies to people aged 18 - 21, during daytime only -->
+          <!-- <div class="newHorizon allPages">
+            <p>If the person is aged 21 or under, they may be able to get help from New Horizon.</p>
+            <p>Is it 10.30am to 4pm (any day of the week)?</p>
+            <div class="waves-effect waves-light btn agegroup newHorizonHours">YES</div><br> -->
+            <!-- This needs to lead back into 18-65 year group -->
+            <!-- <div class="waves-effect waves-light btn agegroup notNHHours">NO</div>
+          </div> -->
+
+          <!-- <div class="newHorizonOpen allPages">
+            <h3>New Horizon Youth Centre</h3>
+            <p>Let staff at New Horizon know you're talking to someone aged 18 to 21 who needs urgent help with housing.</p>
+            <p>68 Chalton St, London, NW1 1JR<br>
+              10.30am to 4pm, 7 days a week</p>
+            <p>020 7388 5560</p>
+          </div> -->
+
+
+          <!-- This section applies to people aged 18 to 65 (evening) and 21 to 65 (day) -->
 
 
         </div>
